@@ -33,6 +33,8 @@ function clear(event) {
         break;
         case '=': calculate();
         break;
+        case '÷':Screen.append('/');
+        break;
         default: Screen.append(this.innerText);
       }
 
