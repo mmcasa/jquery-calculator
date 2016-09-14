@@ -42,14 +42,13 @@ function clear(event) {
   })
 
   function calculate() {
-    var data = Screen.text();
+
+    var data = Screen.text()
      data = eval(data)
-     Screen.append(data)
+     Screen.append(data).Screen.text('')
 
     // console.log(data.split());
     //   console.log(Screen.text());
-
-
   }
 
 })
